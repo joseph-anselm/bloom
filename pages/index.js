@@ -126,7 +126,7 @@ export default function Home() {
                 width: "18rem",
                 margin: "1rem .2rem",
                 borderRadius: "1em",
-                border: "none",
+                padding: "0",
               }}
             >
               <Image
@@ -146,7 +146,9 @@ export default function Home() {
               </Card.Body>
             </Card>
 
-            <Card style={{ width: "18rem", margin: "1rem .2rem" }}>
+            <Card
+              style={{ width: "18rem", margin: "1rem .2rem", padding: "0" }}
+            >
               <Image
                 variant="top"
                 alt="Team"
@@ -163,7 +165,9 @@ export default function Home() {
               </Card.Body>
             </Card>
 
-            <Card style={{ width: "18rem", margin: "1rem .2rem" }}>
+            <Card
+              style={{ width: "18rem", margin: "1rem .2rem", padding: "0" }}
+            >
               <Image
                 variant="top"
                 alt="Team"
@@ -180,7 +184,9 @@ export default function Home() {
               </Card.Body>
             </Card>
 
-            <Card style={{ width: "18rem", margin: "1rem .2rem" }}>
+            <Card
+              style={{ width: "18rem", margin: "1rem .2rem", padding: "0" }}
+            >
               <Image
                 variant="top"
                 alt="Team"
