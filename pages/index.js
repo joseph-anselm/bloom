@@ -120,12 +120,13 @@ export default function Home() {
               </p>
             </Col>
           </Row>
-          <Row>
+          <Row className={styles.card}>
             <Card
               style={{
                 width: "18rem",
                 margin: "1rem .2rem",
                 borderRadius: "1em",
+                border: "none",
               }}
             >
               <Image

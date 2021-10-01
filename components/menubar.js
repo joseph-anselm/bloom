@@ -23,22 +23,22 @@ export default function Menubar() {
               width="30"
               height="40"
               className="d-inline-block align-top logoimg"
-              alt="React Bootstrap logo"
+              alt="Bloom logo"
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Container>
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="#features">About us</Nav.Link>
+                <Nav.Link href="#">About us</Nav.Link>
                 <Nav.Link href="/services">Services</Nav.Link>
                 <Nav.Link href="/services">Gallery</Nav.Link>
                 <Nav.Link href="/services">News and Updates</Nav.Link>
-                <Nav.Link href="#pricing">Contact</Nav.Link>
+                <Nav.Link href="#">Contact</Nav.Link>
               </Nav>
               <Nav>
                 <Nav.Link></Nav.Link>
-                <Nav.Link href="#deets" className={styles.contactinfo}>
+                <Nav.Link href="#" className={styles.contactinfo}>
                   <span>
                     <Icon.TelephoneForwardFill
                       size={40}
