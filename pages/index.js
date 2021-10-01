@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 import * as Icon from "react-bootstrap-icons";
+import * as IconName from "react-icons/gi";
+import * as Ion from "react-icons/io";
 
 export default function Home() {
   return (
@@ -64,7 +66,7 @@ export default function Home() {
             <Col xs={12} md={{ size: 3, offset: 1 }} className={styles.tabs}>
               <div>
                 <span>
-                  <Icon.ConeStriped size={70} />
+                  <IconName.GiShipBow size={70} />
                 </span>
 
                 <p>JACK UP BARGE RENTAL & CONSULTATIONS</p>
@@ -78,7 +80,7 @@ export default function Home() {
             >
               <div>
                 <span>
-                  <Icon.InboxesFill size={70} />
+                  <IconName.GiMeal size={70} />
                 </span>
                 <p>OFFSHORE & ONSHORE CATERING</p>
               </div>
