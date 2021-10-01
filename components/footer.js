@@ -29,7 +29,7 @@ export default function Footer() {
               <Image
                 variant="top"
                 alt="footer logo"
-                src="/../public/img/logo1.png"
+                src="/logo1.png"
                 width={80}
                 height={130}
               />

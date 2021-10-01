@@ -19,7 +19,7 @@ export default function Menubar() {
         <Container>
           <Navbar.Brand href="/" className={styles.logoimg}>
             <Image
-              src="/../public/img/logo.png"
+              src="/logo.png"
               width="30"
               height="40"
               className="d-inline-block align-top logoimg"
