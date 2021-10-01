@@ -131,7 +131,7 @@ export default function Home() {
               <Image
                 variant="top"
                 alt="Team"
-                src="/../public/img/team.jpg"
+                src="/team.jpg"
                 width={450}
                 height={300}
               />
@@ -149,7 +149,7 @@ export default function Home() {
               <Image
                 variant="top"
                 alt="Team"
-                src="/../public/img/team.jpg"
+                src="/team.jpg"
                 width={450}
                 height={300}
               />
@@ -166,7 +166,7 @@ export default function Home() {
               <Image
                 variant="top"
                 alt="Team"
-                src="/../public/img/team.jpg"
+                src="/team.jpg"
                 width={450}
                 height={300}
               />
@@ -183,7 +183,7 @@ export default function Home() {
               <Image
                 variant="top"
                 alt="Team"
-                src="/../public/img/team.jpg"
+                src="/team.jpg"
                 width={450}
                 height={300}
               />
