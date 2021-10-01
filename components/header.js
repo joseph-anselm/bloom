@@ -13,7 +13,10 @@ export default function Header() {
           <br />
           <span>We represent excellence always</span>
         </h1>
-        <p>We focus on professionalism and quality delivery always.</p>
+        <p>
+          With a strong focus on professionalism and quality delivery at all
+          times.
+        </p>
         <Button
           size="lg"
           variant="outline-secondary"
