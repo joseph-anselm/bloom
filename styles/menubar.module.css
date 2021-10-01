@@ -1,0 +1,7 @@
+.logoimg {
+  margin-left: 10px;
+}
+.contactinfo {
+  display: flex;
+  gap: 3em;
+}

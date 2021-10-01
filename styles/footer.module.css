@@ -1,0 +1,16 @@
+.footer {
+  background: #016ea7;
+  padding: 1em;
+  color: #ffffff;
+  margin-top: 50px;
+}
+.copyright1 {
+  line-height: 2px;
+  padding-top: 20px;
+}
+.copyright2 {
+  padding-top: 20px;
+}
+.footerlinks ul Li {
+  padding-bottom: 20px;
+}
