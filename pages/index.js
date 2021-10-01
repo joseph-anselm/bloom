@@ -37,7 +37,7 @@ export default function Home() {
             <Col xs={12} md={6}>
               <Image
                 alt="Team"
-                src="/../public/img/team.jpg"
+                src="/../public/img/bloom-banner1.jpg"
                 width={450}
                 height={300}
                 className={styles.tabimage}
@@ -174,7 +174,7 @@ export default function Home() {
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  the bulk of the card&#39;s content.
                 </Card.Text>
               </Card.Body>
             </Card>

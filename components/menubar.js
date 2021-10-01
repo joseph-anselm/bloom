@@ -32,6 +32,8 @@ export default function Menubar() {
               <Nav className="me-auto">
                 <Nav.Link href="#features">About us</Nav.Link>
                 <Nav.Link href="/services">Services</Nav.Link>
+                <Nav.Link href="/services">Gallery</Nav.Link>
+                <Nav.Link href="/services">News and Updates</Nav.Link>
                 <Nav.Link href="#pricing">Contact</Nav.Link>
               </Nav>
               <Nav>
