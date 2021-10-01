@@ -37,7 +37,7 @@ export default function Home() {
             <Col xs={12} md={6}>
               <Image
                 alt="Team"
-                src="/../public/img/bloom-banner1.jpg"
+                src="/bloom-banner1.jpg"
                 width={450}
                 height={300}
                 className={styles.tabimage}
