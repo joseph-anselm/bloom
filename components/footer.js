@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import styles from "../styles/footer.module.css";
 import * as Icon from "react-bootstrap-icons";
+import * as IconName from "react-icons/gi";
+import * as Ai from "react-icons/ai";
 
 export default function Footer() {
   return (
@@ -15,10 +17,16 @@ export default function Footer() {
               <p>BLOOM MARINE LIMITED</p>
             </Col>
             <Col xs={12} md={6} className={styles.copyright2}>
-              <Icon.Binoculars size={30} style={{ marginRight: "1rem" }} />
-              <Icon.Binoculars size={30} style={{ marginRight: "1rem" }} />
-              <Icon.Binoculars size={30} style={{ marginRight: "1rem" }} />
-              <Icon.Binoculars size={30} style={{ marginRight: "1rem" }} />
+              <IconName.GiMedal size={30} style={{ marginRight: "1rem" }} />
+              <IconName.GiCheckedShield
+                size={30}
+                style={{ marginRight: "1rem" }}
+              />
+              <IconName.GiShipWheel size={30} style={{ marginRight: "1rem" }} />
+              <Ai.AiFillSafetyCertificate
+                size={30}
+                style={{ marginRight: "1rem" }}
+              />
             </Col>
           </Row>
         </Container>
