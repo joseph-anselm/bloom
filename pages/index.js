@@ -114,10 +114,11 @@ export default function Home() {
         <Container fluid>
           <Row className={styles.section3head}>
             <Col>
-              <h1>Gallery</h1>
+              <h1>Our Commitment</h1>
               <p>
-                Check out a cross selection of beautiful images from our core
-                operations and field services.
+                Our whole business process is designed to making sure all
+                principles and guidelines for a smooth operations is strictly
+                adhered leaving nothing to doubts or mediocrity
               </p>
             </Col>
           </Row>
@@ -138,10 +139,11 @@ export default function Home() {
                 height={300}
               />
               <Card.Body>
-                <Card.Title>Catering Display</Card.Title>
+                <Card.Title>Integrity</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card&#39;s content.
+                  We put integrity first in our business transactions, it
+                  remains a key factor and highly relevant in various idea
+                  conceptions to executions.
                 </Card.Text>
                 {/* <Button variant="primary">Go somewhere</Button> */}
               </Card.Body>
@@ -158,10 +160,11 @@ export default function Home() {
                 height={300}
               />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Growth</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card&#39;s content.
+                  Strategically committed to a growth pattern ensuring we are
+                  always better than our previous delivery offering a unique
+                  touch in our next client&apos;s transaction
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -177,10 +180,11 @@ export default function Home() {
                 height={300}
               />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Compliance</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card&#39;s content.
+                  We are storngly guided by industry ethics and non compromsed
+                  compliance protocols which is constantly reflected in all
+                  business processes.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -196,10 +200,11 @@ export default function Home() {
                 height={300}
               />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Health & Safety</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card&#39;s content.
+                  Our highly professional and dedicated trained personnel knows
+                  so well to operate only and under strict HSE policies. keeping
+                  you and us safe always.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -221,7 +226,7 @@ export default function Home() {
               whiteSpace: "noWrap",
             }}
           >
-            About us
+            More about us
           </Button>
         </Container>
       </section>

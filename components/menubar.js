@@ -15,7 +15,13 @@ import * as Icon from "react-bootstrap-icons";
 export default function Menubar() {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="light"
+        variant="light"
+        fixed="top"
+      >
         <Container>
           <Navbar.Brand href="/" className={styles.logoimg}>
             <Image
