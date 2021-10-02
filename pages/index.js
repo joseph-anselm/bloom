@@ -163,8 +163,8 @@ export default function Home() {
                 <Card.Title>Growth</Card.Title>
                 <Card.Text>
                   Strategically committed to a growth pattern ensuring we are
-                  always better than our previous delivery offering a unique
-                  touch in our next client&apos;s transaction
+                  always better than our previous service delivery, also
+                  introducing a unique touch in our next client&apos;s deals.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -182,7 +182,7 @@ export default function Home() {
               <Card.Body>
                 <Card.Title>Compliance</Card.Title>
                 <Card.Text>
-                  We are storngly guided by industry ethics and non compromsed
+                  We are strongly guided by industry ethics and best practices
                   compliance protocols which is constantly reflected in all
                   business processes.
                 </Card.Text>
@@ -204,7 +204,7 @@ export default function Home() {
                 <Card.Text>
                   Our highly professional and dedicated trained personnel knows
                   so well to operate only and under strict HSE policies. keeping
-                  you and us safe always.
+                  you and us safe always is a main priority.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -218,12 +218,12 @@ export default function Home() {
               border: "none",
               marginTop: "3rem",
               marginBottom: "5rem",
-              display: "block",
+              display: "flex",
               justifyContent: "center",
               textAlign: "center",
               margin: "0 auto",
-              width: "25%",
-              whiteSpace: "noWrap",
+              width: "30%",
+              whiteSpace: "normal",
             }}
           >
             More about us
