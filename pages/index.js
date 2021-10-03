@@ -155,7 +155,7 @@ export default function Home() {
               <Image
                 variant="top"
                 alt="Team"
-                src="/img/bloom3.jpg"
+                src="/img/bloomgrowth2.jpg"
                 width={450}
                 height={300}
               />
