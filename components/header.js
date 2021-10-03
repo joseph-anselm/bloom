@@ -23,8 +23,8 @@ export default function Header() {
             variant="primary"
             style={{
               borderRadius: "2rem",
-              background: "#6AD8FC",
-              color: "#000000",
+              background: "#016DA4",
+              color: "#ffffff",
               border: "none",
               display: "block",
               padding: "0.6rem 1.5rem",

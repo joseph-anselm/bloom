@@ -66,7 +66,7 @@ export default function Home() {
             <Col xs={12} md={{ size: 3, offset: 1 }} className={styles.tabs}>
               <div>
                 <span>
-                  <IconName.GiShipBow size={70} />
+                  <IconName.GiShipBow size={70} style={{ color: "#016DA4" }} />
                 </span>
 
                 <p>JACK UP BARGE RENTAL & CONSULTATIONS</p>
@@ -80,7 +80,7 @@ export default function Home() {
             >
               <div>
                 <span>
-                  <IconName.GiMeal size={70} />
+                  <IconName.GiMeal size={70} style={{ color: "#016DA4" }} />
                 </span>
                 <p>OFFSHORE & ONSHORE CATERING</p>
               </div>
@@ -88,7 +88,7 @@ export default function Home() {
             <Col xs={12} md={{ size: 3, offset: 1 }} className={styles.tabs}>
               <div>
                 <span>
-                  <Icon.PeopleFill size={70} />
+                  <Icon.PeopleFill size={70} style={{ color: "#016DA4" }} />
                 </span>
                 <p>QUALITY CREWING SOLUTIONS</p>
               </div>
@@ -96,7 +96,7 @@ export default function Home() {
             <Col xs={12} md={{ size: 3, offset: 1 }} className={styles.tabs}>
               <div>
                 <span>
-                  <Icon.CollectionFill size={70} />
+                  <Icon.CollectionFill size={70} style={{ color: "#016DA4" }} />
                 </span>
                 <p>GENERAL SUPPLIES & MERCHANDISE</p>
               </div>
@@ -214,8 +214,8 @@ export default function Home() {
               variant="primary"
               style={{
                 borderRadius: "1rem",
-                background: "#6ED8FF",
-                color: "#000000",
+                background: "#016DA4",
+                color: "#ffffff",
                 border: "none",
                 marginTop: "3rem",
                 marginBottom: "5rem",

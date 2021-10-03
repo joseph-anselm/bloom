@@ -48,7 +48,7 @@ export default function Menubar() {
                   <span>
                     <Icon.TelephoneForwardFill
                       size={40}
-                      style={{ color: "#6AD8FC" }}
+                      style={{ color: "#016DA4" }}
                     />
                   </span>
                   <div>
