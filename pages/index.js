@@ -175,7 +175,7 @@ export default function Home() {
               <Image
                 variant="top"
                 alt="Team"
-                src="/img/bloom1.jpg"
+                src="/img/bloomcompliance1.jpg"
                 width={450}
                 height={300}
               />
@@ -195,7 +195,7 @@ export default function Home() {
               <Image
                 variant="top"
                 alt="Team"
-                src="/team.jpg"
+                src="/img/bloomsafety2.jpg"
                 width={450}
                 height={300}
               />
