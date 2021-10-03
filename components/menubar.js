@@ -52,7 +52,7 @@ export default function Menubar() {
                     />
                   </span>
                   <div>
-                    <h6>+2348032516519</h6>
+                    <h6>+2348052085357</h6>
                     <h6>info@bloommarine.com</h6>
                   </div>
                 </Nav.Link>

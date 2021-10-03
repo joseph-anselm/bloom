@@ -76,7 +76,7 @@ export default function Footer() {
                   size={20}
                   style={{ color: "#6ED8FF", marginRight: "10px" }}
                 />
-                <span>+2348032516519</span>
+                <span>+2348052085357</span>
               </p>
             </Col>
           </Row>
