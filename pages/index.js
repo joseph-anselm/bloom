@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Bloom Marine</title>
+        <title>Bloom Marine Management</title>
         <meta name="description" content="Bloom Marine company" />
         <link rel="icon" href="/img/favicon.png" />
       </Head>
@@ -141,9 +141,9 @@ export default function Home() {
               <Card.Body>
                 <Card.Title>Integrity</Card.Title>
                 <Card.Text>
-                  We put integrity first in our business transactions, it
-                  remains a key factor and highly relevant in various idea
-                  conceptions to executions.
+                  We put integrity first in our business transactions which
+                  remains a key factor and highly relevant in all business
+                  process from conceptions to executions.
                 </Card.Text>
                 {/* <Button variant="primary">Go somewhere</Button> */}
               </Card.Body>
@@ -162,7 +162,7 @@ export default function Home() {
               <Card.Body>
                 <Card.Title>Growth</Card.Title>
                 <Card.Text>
-                  Strategically committed to a growth pattern ensuring we are
+                  Strategically committed to a growth pattern making sure we are
                   always better than our previous service delivery, also
                   introducing a unique touch in our next client&apos;s deals.
                 </Card.Text>

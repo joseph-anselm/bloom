@@ -1,0 +1,21 @@
+.section1 {
+  margin-top: 3em;
+}
+
+.section1 h5 {
+  color: #0a6b8b;
+}
+.section1 .col {
+  padding-right: 4em;
+}
+.section2 {
+  margin-top: 3em;
+}
+.section2 h2 {
+  margin-bottom: 2em;
+  border: violet;
+}
+.section2 .col {
+  border-bottom: 2px #016ea3 solid;
+  margin-right: 2px;
+}

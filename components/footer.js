@@ -69,7 +69,7 @@ export default function Footer() {
                   size={20}
                   style={{ color: "#6ED8FF", marginRight: "10px" }}
                 />
-                <span>+2348032516519</span>
+                <span>Lagos, Ph Rivers State. Nigeria</span>
               </p>
               <p>
                 <Icon.EnvelopeFill
