@@ -22,11 +22,12 @@ export default function Header() {
             size="lg"
             variant="primary"
             style={{
-              borderRadius: "1rem",
+              borderRadius: "2rem",
               background: "#6AD8FC",
               color: "#000000",
               border: "none",
               display: "block",
+              padding: "0.6rem 1.5rem",
               marginTop: "1rem",
               marginBottom: "4rem",
               textAlign: "center",

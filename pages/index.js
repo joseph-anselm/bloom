@@ -127,14 +127,14 @@ export default function Home() {
               style={{
                 width: "18rem",
                 margin: "1rem .2rem",
-                borderRadius: "1em",
+
                 padding: "0",
               }}
             >
               <Image
                 variant="top"
                 alt="Team"
-                src="/team.jpg"
+                src="/img/bloom2.jpg"
                 width={450}
                 height={300}
               />
@@ -155,7 +155,7 @@ export default function Home() {
               <Image
                 variant="top"
                 alt="Team"
-                src="/team.jpg"
+                src="/img/bloom3.jpg"
                 width={450}
                 height={300}
               />
@@ -175,7 +175,7 @@ export default function Home() {
               <Image
                 variant="top"
                 alt="Team"
-                src="/team.jpg"
+                src="/img/bloom1.jpg"
                 width={450}
                 height={300}
               />
@@ -209,25 +209,26 @@ export default function Home() {
               </Card.Body>
             </Card>
           </Row>
-          <Button
-            variant="primary"
-            style={{
-              borderRadius: "1rem",
-              background: "#6ED8FF",
-              color: "#000000",
-              border: "none",
-              marginTop: "3rem",
-              marginBottom: "5rem",
-              display: "flex",
-              justifyContent: "center",
-              textAlign: "center",
-              margin: "0 auto",
-              width: "30%",
-              whiteSpace: "normal",
-            }}
-          >
-            More about us
-          </Button>
+          <div>
+            <Button
+              variant="primary"
+              style={{
+                borderRadius: "1rem",
+                background: "#6ED8FF",
+                color: "#000000",
+                border: "none",
+                marginTop: "3rem",
+                marginBottom: "5rem",
+                display: "flex",
+                justifyContent: "center",
+                padding: "0.6rem 1.5rem",
+                textAlign: "center",
+                margin: "0 auto",
+              }}
+            >
+              More about us
+            </Button>
+          </div>
         </Container>
       </section>
     </div>
