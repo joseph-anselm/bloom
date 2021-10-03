@@ -17,24 +17,25 @@ export default function Header() {
           With a strong focus on professionalism and quality delivery at all
           times.
         </p>
-        <Button
-          size="lg"
-          variant="outline-secondary"
-          style={{
-            borderRadius: "1rem",
-            background: "#6AD8FC",
-            color: "#000000",
-            border: "none",
-            marginTop: "1rem",
-            marginBottom: "4rem",
-            display: "block",
-            textAlign: "center",
-            width: "35%",
-            zIndex: "15",
-          }}
-        >
-          Leave a request
-        </Button>
+        <div className={styles.headerbtn}>
+          <Button
+            size="lg"
+            variant="primary"
+            style={{
+              borderRadius: "1rem",
+              background: "#6AD8FC",
+              color: "#000000",
+              border: "none",
+              display: "block",
+              marginTop: "1rem",
+              marginBottom: "4rem",
+              textAlign: "center",
+              zIndex: "15",
+            }}
+          >
+            Leave a request
+          </Button>
+        </div>
       </div>
     </div>
   );
