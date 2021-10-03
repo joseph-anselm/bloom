@@ -33,7 +33,7 @@ export default function Header() {
             zIndex: "15",
           }}
         >
-          Contact
+          Leave a request
         </Button>
       </div>
     </div>
