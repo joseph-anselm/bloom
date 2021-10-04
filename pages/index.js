@@ -111,7 +111,7 @@ export default function Home() {
       </section>
 
       <section className={styles.section3}>
-        <Container fluid>
+        <Container>
           <Row className={styles.section3head}>
             <Col>
               <h1>Our Commitment</h1>
@@ -122,6 +122,8 @@ export default function Home() {
               </p>
             </Col>
           </Row>
+        </Container>
+        <Container fluid>
           <Row className={styles.card}>
             <Card
               style={{

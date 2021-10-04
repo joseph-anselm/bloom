@@ -1,5 +1,6 @@
 .section1 {
   margin-top: 3em;
+  background: url("/public/img/backgroundbloom.jpg");
 }
 
 .section1 h5 {
@@ -15,7 +16,22 @@
   margin-bottom: 2em;
   border: violet;
 }
-.section2 .col {
+.section2 .col h6 {
   border-bottom: 2px #016ea3 solid;
-  margin-right: 2px;
+  padding-bottom: 2em;
+}
+.col li {
+  margin-bottom: 1em;
+  list-style-type: none;
+}
+.section3 {
+  margin: 3rem 0;
+  background: #f1f1f1;
+}
+.section3 h1 {
+  margin-bottom: 2rem;
+}
+.section3 p {
+  width: 70%;
+  line-height: 2.5;
 }
