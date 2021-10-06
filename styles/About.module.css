@@ -1,6 +1,8 @@
 .section1 {
-  margin-top: 3em;
-  background: url("/public/img/backgroundbloom.jpg");
+  padding-top: 3em;
+  background: url("/img/backgroundbloom.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .section1 h5 {
@@ -25,7 +27,7 @@
   list-style-type: none;
 }
 .section3 {
-  margin: 3rem 0;
+  padding: 3rem;
   background: #f1f1f1;
 }
 .section3 h1 {

@@ -8,6 +8,7 @@
   background: url("../public/img/bloom\ banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   color: #ffffff;
   text-align: center;
 }

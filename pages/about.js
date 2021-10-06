@@ -31,7 +31,7 @@ export default function about() {
               </p>
             </Col>
             <Col xs={12} md={6}>
-              <Image alt="CEO" src="/img/CEO.JPg" width={350} height={481} />
+              <Image alt="CEO" src="/img/ceo.png" width={350} height={394} />
             </Col>
           </Row>
         </Container>
