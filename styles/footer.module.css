@@ -17,6 +17,9 @@
   padding-bottom: 12px;
   color: white;
 }
+.footerlinks ul Li a:hover {
+  color: #6cdbfe;
+}
 .footerlinks p {
   line-height: 2;
 }
