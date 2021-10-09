@@ -6,6 +6,7 @@ import Image from "next/image";
 import * as Icon from "react-bootstrap-icons";
 import * as IconName from "react-icons/gi";
 Header2.title = "About Us";
+Header2.slogan = "Our Story is from a place where commitment and Passion meets";
 export default function about() {
   return (
     <div>
@@ -17,21 +18,33 @@ export default function about() {
               <h5>CEO, Director Bloom Marine</h5>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi, iure quasi earum id reprehenderit rem explicabo illum
-                ad deserunt ratione?
+                Welcome to Bloom Marine website, We are a people of Passion,
+                Focus, Commitment and Excellence.
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ratione molestiae dolores vero eligendi ullam accusantium
-                ducimus, corrupti cum reprehenderit soluta iste repudiandae
-                neque quia ipsa? Quo quas illo harum sunt in repudiandae, iusto,
-                ea libero voluptatum minima non quis quisquam recusandae.
-                Sapiente voluptate aperiam nisi.
+                Capt Olufemi Otone, I am an experienced Mariner and Captain with
+                skills and over 15years experience in the Nigerian Oil and Gas
+                sector. worked with the industry top players and multinationals.
+              </p>
+              <p>
+                As a certified expert Captain, I have enjoyed working with key
+                players a unique opportunity that has strongly enabled me to
+                create a system that seeks to provide e exceptional solutions to
+                our clients and address mediocrity while offering a topnotch
+                services to our esteemed clients.
+              </p>
+              <p>
+                <b>Feel free to reach to us today</b>{" "}
               </p>
             </Col>
-            <Col xs={12} md={6}>
-              <Image alt="CEO" src="/img/ceo.png" width={350} height={394} />
+            <Col xs={12} md={6} className={styles.profilecol}>
+              <Image
+                alt="CEO"
+                src="/img/ceo.png"
+                width={350}
+                height={394}
+                styles={{}}
+              />
             </Col>
           </Row>
         </Container>

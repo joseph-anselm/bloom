@@ -13,6 +13,10 @@
 .footerlinks {
   margin-top: 20px;
 }
-.footerlinks ul Li {
-  padding-bottom: 20px;
+.footerlinks ul Li a {
+  padding-bottom: 12px;
+  color: white;
+}
+.footerlinks p {
+  line-height: 2;
 }

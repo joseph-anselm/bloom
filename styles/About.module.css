@@ -11,6 +11,11 @@
 .section1 .col {
   padding-right: 4em;
 }
+.profilecol {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+}
 .section2 {
   margin-top: 3em;
 }
