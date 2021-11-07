@@ -29,8 +29,8 @@ export default function about() {
               <p>
                 As a certified expert Captain, I have enjoyed working with key
                 players a unique opportunity that has strongly enabled me to
-                create a system that seeks to provide e exceptional solutions to
-                our clients and address mediocrity while offering a topnotch
+                create a system that seeks to provide exceptional solutions to
+                our clients and avoid mediocrity while offering a topnotch
                 services to our esteemed clients.
               </p>
               <p>
@@ -49,6 +49,7 @@ export default function about() {
           </Row>
         </Container>
       </section>
+
       <section className={styles.section2}>
         <Container>
           <Row>
@@ -62,38 +63,38 @@ export default function about() {
             <Col xs={12} sm={{ size: 4 }} className={styles.col}>
               <h6>Our Partners</h6>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit,
-                vitae!
+                Our unique partnership with vendors & Manufacturers is a core
+                part of our services delivery
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Similique, fugiat laborum.
+                We have established corporate relationship with key players in
+                the oil and gas sectors especially in Nigeria.
               </p>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Commodi, culpa.
+                with a key focus towards ensuring we meet client expectations
+                and demands always
               </p>
             </Col>
             <Col xs={12} sm={{ size: 4, offset: 1 }} className={styles.col}>
               <h6>Certificates for Operations</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Corporate Affairs Commission, Nigeria.</p>
+              <p> Nigeria Maritime Administration and Safety Agency.</p>
               <p>Lorem ipsum dolor sit amet consectetur.</p>
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </Col>
             <Col xs={12} sm={{ size: 4, offset: 1 }} className={styles.col}>
               <h6>Operational Locations</h6>
-              <ul>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem ipsum dolor sit.</li>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem ipsum dolor sit.</li>
-              </ul>
+
+              <p>Warri Delta state, Nigeria.</p>
+              <p>Port harcourt, Rivers state, Nigeria.</p>
+              <p>Bayelsa, Nigeria.</p>
+              <p>Lagos state and other parts of Nigeria.</p>
             </Col>
           </Row>
         </Container>
       </section>
-      <section className={styles.section3} fluid>
+
+      <section className={styles.section3}>
         <Container>
           <Row>
             <Col>
@@ -111,12 +112,12 @@ export default function about() {
                       marginBottom: "2em",
                     }}
                   >
-                    <IconName.GiShipBow size={30} />
+                    <IconName.GiProgression size={30} />
                     <h4>Professionally Deliver</h4>
                   </div>
-                  <p>Lorem ipsum dolor sit.</p>
-                  <p>Lorem ipsum dolor sit.</p>
-                  <p>Lorem ipsum dolor sit.</p>
+                  <p>Focused on quality service delivery.</p>
+                  <p>Industry standard compliance always </p>
+                  <p>Client first approach.</p>
                 </Col>
               </Row>
               <Row>
@@ -128,12 +129,12 @@ export default function about() {
                       marginBottom: "2em",
                     }}
                   >
-                    <IconName.GiShipBow size={30} />
+                    <IconName.GiPowerGenerator size={30} />
                     <h4>Testing for strenght</h4>
                   </div>
-                  <p>Lorem ipsum dolor sit.</p>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                  <p>Lorem, ipsum dolor.</p>
+                  <p>Setting the Pace at all times.</p>
+                  <p>Adopting Unique standards for best solutions</p>
+                  <p>Staying updated always.</p>
                 </Col>
               </Row>
             </Col>
@@ -145,17 +146,55 @@ export default function about() {
                   marginBottom: "2em",
                 }}
               >
-                <IconName.GiShipBow size={30} />
+                <IconName.GiChoice size={30} />
                 <h4>Why customers choose us</h4>
               </div>
               <p className={styles.para}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                voluptate unde non temporibus quaerat porro error cum culpa,
-                rerum similique, atque, dolorem earum! Accusantium dignissimos
-                ratione culpa. Corrupti pariatur dignissimos fugit autem
-                adipisci veniam quas mollitia earum soluta quo, asperiores
-                fugiat et ut molestiae consequatur sequi animi sit tenetur
-                officia!
+                We have set standards using outstanding and highly professional
+                approach to ensure our clients gets a topnotch service delivery
+                at all times.
+              </p>
+              <p>
+                {" "}
+                Our customer first approach is designed with industry leading
+                professional strategies, which guarantees success whenever
+                needed.
+              </p>{" "}
+              <p>
+                {" "}
+                Our team makes sure quality and excellence is never compromised
+                while designing a solution for a client project
+              </p>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section className={styles.vision}>
+        <Container>
+          <Row>
+            <Col xs={12} md={12}>
+              <IconName.GiShipWheel
+                size={70}
+                style={{
+                  color: "#016DA4",
+                }}
+              />
+              <h2>Our Vision</h2>
+              <p>
+                Our main focus is to become leading providers of exceptional
+                services and solutions to the oil and gas sector.
+              </p>
+            </Col>
+
+            <Col xs={12} md={12}>
+              <IconName.GiRoad size={60} className={styles.icons} />
+              <h2>Our Mission</h2>
+              <p>
+                Dedicated towards ensuring our aim is acomplished through
+                strategic operations and client satisfaction in every project
+                delivery. our corporate effort is completely centered on
+                achieveing excellence always{" "}
               </p>
             </Col>
           </Row>
