@@ -31,12 +31,12 @@
   margin-top: 3em;
 }
 .section2 h2 {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   border: violet;
 }
 .section2 .col h6 {
   border-bottom: 2px #016ea3 solid;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 .col li {
   margin-bottom: 1em;
@@ -55,4 +55,7 @@
 }
 .section3 h4 {
   margin-left: 0.5em;
+}
+.col h6 {
+  margin-top: 0.5em;
 }
