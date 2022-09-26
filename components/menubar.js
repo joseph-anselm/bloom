@@ -36,6 +36,7 @@ export default function Menubar() {
           <Container>
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
+                <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/about">About us</Nav.Link>
                 <Nav.Link href="/services">Services</Nav.Link>
                 <Nav.Link href="/gallery">Gallery</Nav.Link>
