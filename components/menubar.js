@@ -11,6 +11,23 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../styles/menubar.module.css";
 import Image from "next/image";
 import * as Icon from "react-bootstrap-icons";
+import ReactDOM from "react-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faAppleAlt,
+  faBook,
+  faCoffee,
+  faContactCard,
+  faGears,
+  faHouse,
+  faImages,
+  faInfo,
+  faInfoCircle,
+  faPersonCircleCheck,
+  faPersonCirclePlus,
+  faUserCircle,
+  faUserClock,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Menubar() {
   return (
@@ -35,13 +52,45 @@ export default function Menubar() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Container>
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="me-auto">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/about">About us</Nav.Link>
-                <Nav.Link href="/services">Services</Nav.Link>
-                <Nav.Link href="/gallery">Gallery</Nav.Link>
-                <Nav.Link href="/updates">News and Updates</Nav.Link>
-                <Nav.Link href="/contact">Contact</Nav.Link>
+              <Nav className="mx-auto">
+                <Nav.Link href="/">
+                  <FontAwesomeIcon icon={faHouse} className={styles.faicon} />
+                  Home
+                </Nav.Link>
+                <Nav.Link href="/about">
+                  <FontAwesomeIcon
+                    icon={faUserCircle}
+                    className={styles.faicon}
+                  />
+                  About us
+                </Nav.Link>
+                <Nav.Link href="/services">
+                  <FontAwesomeIcon icon={faGears} className={styles.faicon} />
+                  Services
+                </Nav.Link>
+                <Nav.Link href="/gallery">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faImages}
+                    className={styles.faicon}
+                  />{" "}
+                  Gallery
+                </Nav.Link>
+                <Nav.Link href="/updates">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faInfoCircle}
+                    className={styles.faicon}
+                  />
+                  News and Updates
+                </Nav.Link>
+                <Nav.Link href="/contact">
+                  <FontAwesomeIcon
+                    icon={faContactCard}
+                    className={styles.faicon}
+                  />
+                  Contact
+                </Nav.Link>
               </Nav>
               <Nav>
                 <Nav.Link></Nav.Link>

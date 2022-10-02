@@ -5,3 +5,16 @@
   display: flex;
   gap: 3em;
 }
+.menusvg {
+  vertical-align: baseline !important;
+  padding-right: 5px;
+}
+.faicon {
+  color: #026ea5;
+  width: 1em;
+  margin-right: 5px;
+  vertical-align: baseline;
+}
+.navlink {
+  font-weight: 500;
+}
